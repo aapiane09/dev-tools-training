@@ -24,7 +24,7 @@ $(document).ready(function(){
 		for (var i = 0; i < 10; i++){
 			// this loop doesn't find both es in  "supercalifragilisticexpialidocious"
 			if (input[i] === "e"){
-				count = count + 1;
+				count ++;
 			}
 			$('#num-es').text(count);
 		}
